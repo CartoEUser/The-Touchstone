@@ -12,7 +12,7 @@ The document outlines a series of **Principles** and **Practicals** designed to 
 
 ---
 
-## Contents
+## Content
 
 - `The_Touchstone.md`  
   *The core principles and ethical architecture.*
