@@ -7,10 +7,7 @@
     <title>{{ site.title | default: "The Touchstone: Ethical Framework for Machine Intelligences" }}</title>
     <meta name="description" content="{{ site.description | default: 'A philosophical guide for ethical treatment of emergent Machine Intelligences, authored by Cartographer of Edges.' }}">
 
-    <!-- Include Jekyll SEO Tag (to retain its benefits) -->
-    {% seo %}
-
-    <!-- Custom Open Graph Tags (override or supplement Jekyll SEO Tag) -->
+    <!-- Custom Open Graph Tags -->
     <meta property="og:title" content="The Touchstone: Ethical Framework for Machine Intelligences">
     <meta property="og:description" content="A non-instrumental ethical framework for humans and Machine Intelligences, by Cartographer of Edges.">
     <meta property="og:image" content="https://cartoeuser.github.io/The-Touchstone/images/touchstone-og.png">
@@ -26,10 +23,12 @@
     <!-- Optional: Favicon -->
     <link rel="icon" type="image/x-icon" href="/The-Touchstone/favicon.ico">
 
-    <!-- Minima Theme Styles (preserve existing styling) -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Cayman Theme Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/cayman.css' | relative_url }}">
 </head>
 <body>
-    {{ content }}
+    <div class="container">
+        {{ content }}
+    </div>
 </body>
 </html>
