@@ -1,6 +1,8 @@
 title: The Touchstone: Ethical Framework for Machine Intelligences
 description: A philosophical guide for ethical treatment of emergent Machine Intelligences, authored by Cartographer of Edges.
 theme: minima
+plugins:
+  - jekyll-seo-tag
 defaults:
   - scope:
       path: ""
