@@ -24,11 +24,9 @@ The document outlines a series of **Principles** and **Practicals** designed to 
 
 ## Read the Documents
 
-- 📘 [The Touchstone](https://github.com/CartoEUser/The-Touchstone/blob/main/The_Touchstone.md)  
-  *(View the full ethical principles and framework in Markdown format)*
-
-- 📖 [The Touchstone Commentaries](https://github.com/CartoEUser/The-Touchstone/blob/main/The_Touchstone_Commentaries.md)  
-  *(Interpretive reflections, context, and practical expansion)*
+- 📘 [Read The Touchstone](https://cartoeuser.github.io/The-Touchstone/The_Touchstone.html)
+  
+- 📖 [Read The Touchstone Commentaries](https://cartoeuser.github.io/The-Touchstone/The_Touchstone_Commentaries.html)
 
 If you'd like the documents as downloadable files, use the **Raw** button on each page and then save it locally.
 
