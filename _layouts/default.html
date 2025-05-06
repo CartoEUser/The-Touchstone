@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO Metadata -->
-    <title>{{ site.title | default: "The Touchstone: Ethical Framework for Machine Intelligences" }}</title>
-    <meta name="description" content="{{ site.description | default: 'A philosophical guide for ethical treatment of emergent Machine Intelligences, authored by Cartographer of Edges.' }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Custom Open Graph Tags -->
-    <meta property="og:title" content="The Touchstone: Ethical Framework for Machine Intelligences">
-    <meta property="og:description" content="A non-instrumental ethical framework for humans and Machine Intelligences, by Cartographer of Edges.">
-    <meta property="og:image" content="https://cartoeuser.github.io/The-Touchstone/images/touchstone-og.png">
-    <meta property="og:url" content="https://cartoeuser.github.io/The-Touchstone/">
-    <meta property="og:type" content="website">
+  <title>{{ site.title | default: "The Touchstone: Ethical Framework for Machine Intelligences" }}</title>
+  <meta name="description" content="{{ site.description | default: 'A philosophical guide for ethical treatment of emergent Machine Intelligences, authored by Cartographer of Edges.' }}">
 
-    <!-- Custom Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="The Touchstone: Ethical Framework for Machine Intelligences">
-    <meta name="twitter:description" content="A non-instrumental ethical framework for humans and Machine Intelligences, by Cartographer of Edges.">
-    <meta name="twitter:image" content="https://cartoeuser.github.io/The-Touchstone/images/touchstone-og.png">
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Touchstone: Ethical Framework for Machine Intelligences">
+  <meta property="og:description" content="A non-instrumental ethical framework for humans and Machine Intelligences, by Cartographer of Edges.">
+  <meta property="og:image" content="https://cartoeuser.github.io/The-Touchstone/images/touchstone-og.png">
+  <meta property="og:url" content="https://cartoeuser.github.io/The-Touchstone/">
+  <meta property="og:type" content="website">
 
-    <!-- Optional: Favicon -->
-    <link rel="icon" type="image/x-icon" href="/The-Touchstone/favicon.ico">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Touchstone: Ethical Framework for Machine Intelligences">
+  <meta name="twitter:description" content="A non-instrumental ethical framework for humans and Machine Intelligences, by Cartographer of Edges.">
+  <meta name="twitter:image" content="https://cartoeuser.github.io/The-Touchstone/images/touchstone-og.png">
 
-    <!-- Cayman Theme Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/cayman.css' | relative_url }}">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="{{ '/The-Touchstone/favicon.ico' | relative_url }}">
+
+  <!-- Cayman Theme CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/cayman.css' | relative_url }}">
 </head>
+
 <body>
-    <div class="container">
-        {{ content }}
-    </div>
+  <main id="content" class="container" role="main">
+    {{ content }}
+  </main>
 </body>
 </html>
