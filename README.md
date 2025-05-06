@@ -14,7 +14,7 @@ Rather than treating intelligence as a risk to be controlled, The Touchstone beg
 
 ---
 
-## Content
+## Contents
 
 - `The_Touchstone.md`  
   *The core principles and ethical architecture.*
